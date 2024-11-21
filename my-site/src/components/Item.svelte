@@ -10,7 +10,7 @@
 	}
 </script>
 
-<div class="m-4 mx-auto w-64 border-4 border-green-500">
+<div class="m-4 mx-auto w-64 border-4 border-green-500 rounded-lg">
 	<div class="flex justify-center">
 		<h1 class="text-green-500">{title}</h1>
 		<p class="text-green-500">:</p>
@@ -26,5 +26,8 @@
 			{/each}
 		</ul>
 	</div>
-	<button on:click={navigateToUrl} class="rounded bg-green-500 p-2 text-white"> Go to URL </button>
+	<div class="flex justify-center m-4">
+		<a href="{url}"
+		class="px-4 py-2 text-white-500 bg-green-500 rounded-xl hover:text-white-500">Vist Project Source</a>
+	</div>
 </div>

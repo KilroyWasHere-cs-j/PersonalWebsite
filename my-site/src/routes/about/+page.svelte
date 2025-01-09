@@ -1,6 +1,4 @@
 <script lang="ts">
-    import antlar_room from '../../images/antlar_room.jpg';
-    import antlar_room_blood_money from '../../images/antlar_room_blood_money.jpg';
     import badtree from '../../images/badtree.jpg';
     import Frenchie from '../../images/Frenchie.jpg';
     import kite_man from '../../images/kite_man.jpg';
@@ -13,8 +11,6 @@
     import monke from '../../images/monke.jpg';
 </script>
 
-<img src={antlar_room} alt="Antlar Room" />
-<img src={antlar_room_blood_money} alt="Antlar Room Blood Money" />
 <img src={badtree} alt="Badtree" />
 <img src={Frenchie} alt="Frenchie" />
 <img src={kite_man} alt="Kite_man" />

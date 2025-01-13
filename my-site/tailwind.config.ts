@@ -8,8 +8,11 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				'tgreen' : '#26C315',
+			}
+		},
 	},
-
-	plugins: [typography, forms, containerQueries, aspectRatio]
+	plugins: [require('tailwindcss-motion')], 
 } satisfies Config;

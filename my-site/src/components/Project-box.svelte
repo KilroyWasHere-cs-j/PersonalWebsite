@@ -1,33 +1,19 @@
 <script lang="ts">
-	export let title: string = '';
-	export let body: string = '';
-	export let tech: string = '';
-	export let url: string = '';
-	export let points: string[] = [];
-
-	function navigateToUrl() {
-		window.location.href = 'https://example.com'; // Replace with your URL
-	}
+    export let title: string;
+    export let body: string;
+    export let date: string;
+    export let link: string;
+    export let delay: number;
 </script>
 
-<div class="m-4 mx-auto w-64 border-4 border-green-500 rounded-lg">
-	<div class="flex justify-center">
-		<h1 class="text-green-500">{title}</h1>
-		<p class="text-green-500">:</p>
-		<p class="text-green-500">{tech}</p>
-	</div>
-	<div class="flex justify-center">
-		<p class="m-2 text-green-500">{body}</p>
-	</div>
-	<div>
-		<ul class="m-4 list-disc pl-6 text-green-500">
-			{#each points as point}
-				<li>{point}</li>
-			{/each}
-		</ul>
-	</div>
-	<div class="flex justify-center m-4">
-		<a href="{url}"
-		class="px-4 py-2 text-white-500 bg-green-500 rounded-xl hover:text-white-500">Vist Project Source</a>
-	</div>
+<div class="flex flex-col justify-start space-y-4 border-2 rounded-xl motion-scale-in-0 motion-delay-[{delay}s] m-4 p-4">
+    <h1 class="text-white text-4xl">{title}</h1>
+    <p class="text-white">{body}</p>
+    <p class="text-white">{date}</p>
+    <!-- svelte-ignore a11y_consider_explicit_label -->
+    <button 
+        onclick={() => (window.location.href = link)}
+        class="bg-white text-black rounded-xl md:w-[100px] md:h-[50px] border-2 p-2">
+        Visit
+    </button>
 </div>

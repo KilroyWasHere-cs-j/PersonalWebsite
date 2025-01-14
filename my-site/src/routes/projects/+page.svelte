@@ -1,6 +1,6 @@
 <script lang="ts">
     import Navbar from '../../components/navbar.svelte';
-    import ProjectBox from '../../components/project-box.svelte';
+    import ProjectBox from '../../components/project.svelte';
 
     let showProjects = false;
 
@@ -30,10 +30,10 @@
             <button class="w-screen md:h-[50px] bg-purple-900 rounded-xl m-4" onclick={() => showProjects = true}>See projects</button>
         {/if}
     </div>
-<!-- 
+
     {#if showProjects}
         {#each projects as { title, body, date, link }, id}
             <ProjectBox title={title} body={body} date={date} link={link} delay={id}/>
         {/each}
-    {/if} -->
+    {/if}
 </div>

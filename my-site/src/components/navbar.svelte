@@ -36,7 +36,7 @@
         
         <!-- Hamburger Icon for Mobile -->
         <button 
-            class="text-textGold md:hidden px-4 py-2 rounded focus:outline-none text-purple-900" 
+            class="text-textGold md:hidden px-4 py-2 rounded focus:outline-none text-purple-300" 
             onclick={toggleMobileMenu}>
             ☰
         </button>
@@ -46,7 +46,7 @@
             {#each ['home', 'projects', 'contact'] as link}
                 <button 
                     onclick={() => (window.location.href = `/${link}`)}
-                    class="text-purple-900 px-4 py-2 rounded hover:bg-green-200 hover:text-black transition duration-300"
+                    class="text-purple-300 px-4 py-2 rounded hover:bg-purple-400 hover:text-black transition duration-300"
                 >
                     {link.charAt(0).toUpperCase() + link.slice(1)}
                 </button>

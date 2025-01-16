@@ -1,5 +1,6 @@
 <script lang="ts">
     import Navbar from '../../components/navbar.svelte';
+import NavBar from '../../components/navbar.svelte';
     import ProjectBox from '../../components/project.svelte';
 
     let showProjects = false;

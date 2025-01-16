@@ -12,12 +12,24 @@
   <nav class="bg-bgNavy shadow-md sticky top-0 z-50">
     <div class="container mx-auto flex items-center justify-between bg-black shadow-purple-900 shadow-md p-4">
         <!-- Logo Section -->
-         <div class="motion-opacity-in-35">
+         <div class="flex flex-row space-x-2">
+            <div class="">
+                <svg width="20px" height="20px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" fill="black"/>
+                    <g id="a" transform="rotate(0, 24, 24) translate(0,-10)">
+                      <polyline class="c" points="32.1313 11.85 24 36.15 15.8687 11.85" stroke="#7D359C" fill="none"/>
+                    </g>
+                    <g id="a" transform="rotate(180, 24, 24) translate(0,-10)">
+                      <polyline class="c" points="32.1313 11.85 24 36.15 15.8687 11.85" stroke="#eb4034" fill="none"/>
+                    </g>
+                    <g id="b"></g>
+                </svg>
+            </div>
               <a href="/" class="flex items-center">
-                <div class="flex flex-row space-x-2">
-                    <h1 class="text-purple-900 motion-opacity-in-0">Black</h1>
-                    <h1 class="text-green-700 motion-opacity-in-0">Magic</h1>
-                    <h1 class="text-white motion-opacity-in-0">Software</h1>
+                <div class="flex flex-row space-x-1">
+                    <h1 class="text-purple-900 motion-opacity-in-0">Voodu</h1>
+                    <h1 class="text-green-700 motion-opacity-in-0">Software</h1>
+                    <h1 class="text-white motion-opacity-in-0">.</h1>
                 </div>
               </a>
          </div>

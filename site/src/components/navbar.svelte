@@ -15,11 +15,15 @@
 		<!-- <svelte:fragment slot="lead">(icon)</svelte:fragment> -->
 		<span>Home</span>
 	</AppRailTile>
-	<AppRailTile bind:group={currentTile} name="tile-2" value={1} title="tile-2">
+	<AppRailTile bind:group={currentTile} name="tile-3" value={1} title="tile-3">
 		<!-- <svelte:fragment slot="lead">(icon)</svelte:fragment> -->
-		<span>Project</span>
+		<span>Us</span>
 	</AppRailTile>
-	<AppRailTile bind:group={currentTile} name="tile-3" value={2} title="tile-3">
+	<AppRailTile bind:group={currentTile} name="tile-2" value={2} title="tile-2">
+		<!-- <svelte:fragment slot="lead">(icon)</svelte:fragment> -->
+		<span>Projects</span>
+	</AppRailTile>
+	<AppRailTile bind:group={currentTile} name="tile-3" value={3} title="tile-3">
 		<!-- <svelte:fragment slot="lead">(icon)</svelte:fragment> -->
 		<span>More</span>
 	</AppRailTile>
